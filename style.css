@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+a{
+  color: aliceblue;
+}
+
+.webgl{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+}
+
+nav{
+  font-weight: bolder;
+  color: aliceblue !important;
+  z-index: 2 !important;
+  position: absolute !important;
+  padding: 2rem 8rem !important;
+  display: flex;
+  
+}
+a{
+  color: white !important;
+}
+
+.title{
+  color: aliceblue;
+  position: absolute;
+  font-weight: bolder;
+  z-index: 2;
+  left:45%;
+  top: 85%;  
+}
+
+
+ 
